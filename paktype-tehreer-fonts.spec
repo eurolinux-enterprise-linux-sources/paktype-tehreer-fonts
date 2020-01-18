@@ -3,7 +3,7 @@
 
 Name:	%{fontname}-fonts
 Version:     4.1
-Release:     1%{?dist}
+Release:     2%{?dist}
 Summary:     Fonts for Arabic from PakType
 Group:		User Interface/X
 License:     GPLv2 with exceptions
@@ -52,6 +52,9 @@ ln -s %{_fontconfig_templatedir}/%{fontconf}-tehreer.conf \
 %doc PakType_Tehreer_License.txt PakType_Tehreer_Features.pdf
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 4.1-2
+- Mass rebuild 2013-12-27
+
 * Mon Apr 22 2013 Pravin Satpute <psatpute@redhat.com> - 4.1-1
 - Upstream 4.1 release
 
